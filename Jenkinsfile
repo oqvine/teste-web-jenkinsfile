@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('clonar repositorio') {
             steps {
-               git branch: 'main', url: 'https://github.com/leslitaS/testes-e2e-ebac-shop-jenkinsfile.git'
+               git branch: 'main', url: 'https://github.com/oqvine/teste-web-jenkinsfile'
             }
         }
         stage('Instalar dependencias') {
